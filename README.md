@@ -5,7 +5,7 @@
 
 - [About](#about)
 - [Available Images](#available-images)
-- [Current Partner image overview ](#Current-Partner-image-overview )
+- [Current Partner image overview](#current-partner-image-overview)
 - [Image Definitions](#image-definitions)
 - [Software and Image Support](#software-and-image-support)
 - [How to Interact with the Repo](#how-to-interact-with-the-repo)
@@ -13,7 +13,7 @@
 
 ## About
 
-This repository contains the information about the VM images provided by GitHub partners which can be used on [GitHub-hosted larger runners](https://docs.github.com/en/actions/using-github-hosted-runners/using-larger-runners)
+This repository contains the information about the VM images provided by GitHub partners which can be used on [GitHub-hosted larger runners](https://docs.github.com/en/actions/using-github-hosted-runners/using-larger-runners).
 
 Partner images are VM images which are created by third parties which GitHub Hosted Action runner customers can use to improve particular use cases in their workflow by providing particular tools in 'one click' to work with. 
 
@@ -21,21 +21,23 @@ Partner images are VM images which are created by third parties which GitHub Hos
 
 | Image | YAML Label | Included Software | Rollout Progress of Latest Image Release |
 | --------------------|---------------------|--------------------|---------------------|
-| ARM-Partner-AVH | custom in larger runners| TBD| In Beta
+| ARM-Partner-AVH | custom in larger runners| TBD | In Beta
 
 ## Current Partner image overview 
 
-- ARM AVH Image Beta 
-This beta is for customers who have ARM edge IoT use cases and workloads that they would like to build and test through GitHub Actions. The types of customers will be those working in industries like Medical devices, Agriculture, Consumer electronics, automotive etc. 
-
+### ARM AVH Image (Beta) 
+This image is for customers who have ARM edge IoT use cases and workloads that they would like to build and test through GitHub Actions. The types of customers will be those working in industries like Medical devices, Agriculture, Consumer electronics, automotive, etc. 
 
 ## Image Definitions
 
 ### Beta
 
-The purpose of a Beta is to collect feedback on an image before it is released to GA. The goal of a Beta is to identify and fix any potential issues that exist on that
-image. Images are updated on a cadence owned by the third party who provided the image, please see the image information above. Any workflows that run on a beta image do not fall under the customer [SLA](https://github.com/customer-terms/github-online-services-sla) in place for Actions.
-Customers choosing to use Beta images are encouraged to provide feedback in the partner-runner-images repo by creating an issue. A Beta may take on different availability, i.e. public vs private.
+The purpose of a Beta is to collect feedback on an image before it is released to GA. 
+The goal of a Beta is to identify and fix any potential issues that exist on that image. 
+Images are updated on a cadence owned by the third party who provided the image, please see the image information above. 
+Any workflows that run on a beta image do not fall under the customer [SLA](https://github.com/customer-terms/github-online-services-sla) in place for Actions.
+Customers choosing to use Beta images are encouraged to provide feedback in the [partner-runner-images repo](https://github.com/actions/partner-runner-images/issues/new/choose) by creating an issue. 
+A Beta may take on different availability, i.e. public vs private.
 
 ### GA
 
@@ -43,8 +45,7 @@ A GA (General Availability) image has been through a Beta period and is deemed r
 GA the image must meet the following criteria:
 
 1. Has been through a Beta period (public or private)
-2. Most major software we install on the image has a compatible
-version for the underlying OS and
+2. Most major software we install on the image has a compatible version for the underlying OS and
 3. All major bugs reported during the Beta period have been addressed.
 
 Any workflows that run on a partner image do not fall under the customer [SLA](https://github.com/customer-terms/github-online-services-sla) as GitHub cannot commit to the partner updating the image within these timeframes. 
@@ -53,7 +54,7 @@ Any workflows that run on a partner image do not fall under the customer [SLA](h
 
 ### Support Policy
 
-- Updates to each image are owned and managed by the partner providing the image 
+- Updates to each image are owned and managed by the partner providing the image, not GitHub
 - GitHub makes no warranties or guarantees for the images or their contents 
 - Each partner image will have a different term of support depending on the partner, partner support links can be found below
 
@@ -61,7 +62,6 @@ Any workflows that run on a partner image do not fall under the customer [SLA](h
 | Partner Name | Support Link |
 |-----------|-----------------------|
 | ARM AVH | TBD |
-
 
 
 ## How to Interact with the Repo
