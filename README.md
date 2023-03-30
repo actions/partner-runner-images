@@ -21,12 +21,12 @@ Partner images are VM images which are created by third parties which GitHub Hos
 
 | Image | YAML Label | Included Software | Rollout Progress of Latest Image Release |
 | --------------------|---------------------|--------------------|---------------------|
-| ARM-Partner-AVH | custom in larger runners| TBD | In Beta
+| [ARM-Partner-AVH](https://resources.github.com/arm-gihub-actions-beta/) | custom in larger runners| [AVH Inventory](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh_inventory.html ) | In Beta
 
 ## Current Partner image overview 
 
-### ARM AVH Image (Beta) 
-This image is for customers who have ARM edge IoT use cases and workloads that they would like to build and test through GitHub Actions. The types of customers will be those working in industries like Medical devices, Agriculture, Consumer electronics, automotive, etc. 
+### [ARM AVH Image (Beta) ](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh.html)
+Arm Virtual Hardware (AVH) images contain ready-to-use Arm Cortex-M simulation models and Compiler toolchains for native use with GitHub Actions. This image is for customers who have ARM edge IoT use cases and workloads that they would like to build and test through GitHub Actions. The types of customers will be those working in industries like Medical devices, Agriculture, Consumer electronics, automotive, etc. 
 
 ## Image Definitions
 
@@ -61,7 +61,7 @@ Any workflows that run on a partner image do not fall under the customer [SLA](h
 
 | Partner Name | Support Link |
 |-----------|-----------------------|
-| ARM AVH | TBD |
+| [ARM AVH ](https://resources.github.com/arm-gihub-actions-beta/)| [About & Support](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh.html) |
 
 
 ## How to Interact with the Repo
