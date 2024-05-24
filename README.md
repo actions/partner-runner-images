@@ -59,10 +59,10 @@ Any workflows that run on a partner image do not fall under the customer [SLA](h
 - Each partner image will have a different term of support depending on the partner, partner support links can be found below
 
 
-| Partner Name | Support Link |
+| Partner  | Image | Support Link | 
 |-----------|-----------------------|
-| [ARM AVH ](https://resources.github.com/arm-gihub-actions-beta/)| [About & Support](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh.html) |
-
+| Arm Limited, Inc.| [Ubuntu 22.04 by Arm Limited]()| [About & Support]() |
+| Arm Limited, Inc.| [ARM AVH](https://resources.github.com/arm-gihub-actions-beta/)| [About & Support](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh.html) |
 
 ## How to Interact with the Repo
 
