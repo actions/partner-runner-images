@@ -26,6 +26,9 @@ Partner images are VM images which are created by third parties which GitHub Hos
 
 ## Current Partner image overview 
 
+### [Ubuntu 22.04 by Arm Limite]()
+[INSERT SHORT DESCRIPTION OF THE IMAGE]
+
 ### [ARM AVH Image (Beta) ](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh.html)
 Arm Virtual Hardware (AVH) images contain ready-to-use Arm Cortex-M simulation models and Compiler toolchains for native use with GitHub Actions. This image is for customers who have ARM edge IoT use cases and workloads that they would like to build and test through GitHub Actions. The types of customers will be those working in industries like Medical devices, Agriculture, Consumer electronics, automotive, etc. 
 
