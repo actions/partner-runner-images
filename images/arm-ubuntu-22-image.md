@@ -1,6 +1,4 @@
-# Ubuntu 22.04 by Arm Limited - Beta
-
-Welcome to the Beta for Arm hosted runners 🎉 
+# Ubuntu 22.04 by Arm Limited 
 
 The Ubuntu 22.04 LTS image with tools is created from the [GitHub Actions Runner Images](https://github.com/actions/runner-images) repository. 
 
