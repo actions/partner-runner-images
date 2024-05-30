@@ -21,7 +21,7 @@ Partner images are VM images which are created by third parties which GitHub Hos
 
 | Image | YAML Label | Included Software | Rollout Progress of Latest Image Release |
 | --------------------|---------------------|--------------------|---------------------|
-| [Ubuntu 22.04 by Arm Limited]]() | custom in larger runners| [Ubuntu 22.04 Inventory](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh_inventory.html ) | In Beta (Public)
+| [Ubuntu 22.04 by Arm Limited](https://github.blog/changelog/2023-10-30-accelerate-your-ci-cd-with-arm-based-hosted-runners-in-github-actions/) | custom in larger runners| [Ubuntu 22.04 Inventory](/images/arm-ubuntu-22-image.md) | In Beta (Public)
 | [ARM-Partner-AVH](https://resources.github.com/arm-gihub-actions-beta/) | custom in larger runners| [AVH Inventory](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh_inventory.html ) | In Beta (Private)
 
 ## Current Partner image overview 
