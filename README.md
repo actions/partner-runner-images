@@ -19,10 +19,10 @@ Partner images are VM images which are created by third parties which GitHub Hos
 
 ## Available Images
 
-| Image | YAML Label | Included Software | Rollout Progress of Latest Image Release |
-| --------------------|---------------------|--------------------|---------------------|
-| [Ubuntu 22.04 by Arm Limited](https://github.blog/changelog/2023-10-30-accelerate-your-ci-cd-with-arm-based-hosted-runners-in-github-actions/) | custom in larger runners| [Ubuntu 22.04 Inventory](/images/arm-ubuntu-22-image.md) | In Beta (Private)
-| [ARM-Partner-AVH](https://resources.github.com/arm-gihub-actions-beta/) | custom in larger runners| [AVH Inventory](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh_inventory.html ) | In Beta (Private)
+| Partner | Image | YAML Label | Included Software | Rollout Progress of Latest Image Release | Support Link | 
+|-----------| --------------------|---------------------|--------------------|--------------------------------------------|-----------------------|
+| Arm Limited, Inc. | [Ubuntu 22.04 by Arm Limited](https://github.blog/changelog/2023-10-30-accelerate-your-ci-cd-with-arm-based-hosted-runners-in-github-actions/) | custom in larger runners| [Ubuntu 22.04 Inventory](/images/arm-ubuntu-22-image.md) | In Beta (Private) | [About & Support](https://github.com/actions/partner-runner-images/issues/new/choose) |
+| Arm Limited, Inc. | [ARM-Partner-AVH](https://resources.github.com/arm-gihub-actions-beta/) | custom in larger runners| [AVH Inventory](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh_inventory.html ) | In Beta (Private) | [About & Support](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh.html) |
 
 ## Current Partner image overview 
 
@@ -61,12 +61,6 @@ Any workflows that run on a partner image do not fall under the customer [SLA](h
 - Updates to each image are owned and managed by the partner providing the image, not GitHub
 - GitHub makes no warranties or guarantees for the images or their contents 
 - Each partner image will have a different term of support depending on the partner, partner support links can be found below
-
-
-| Partner  | Image | Support Link | 
-|-----------|-----------|-----------------------|
-| Arm Limited, Inc.| [Ubuntu 22.04 by Arm Limited](https://github.blog/changelog/2023-10-30-accelerate-your-ci-cd-with-arm-based-hosted-runners-in-github-actions/)| [About & Support](https://github.com/actions/partner-runner-images/issues/new/choose) |
-| Arm Limited, Inc.| [ARM AVH](https://resources.github.com/arm-gihub-actions-beta/)| [About & Support](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh.html) |
 
 ## How to Interact with the Repo
 
