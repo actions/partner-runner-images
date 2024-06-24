@@ -21,13 +21,21 @@ Partner images are VM images which are created by third parties which GitHub Hos
 
 | Partner | Image | YAML Label | Included Software | OS / Architecture | Rollout Progress of Latest Image Release | Support Link | 
 |-----------| --------------------|---------------------|--------------------|--------------------|----------------------------|-----------------------|
+| Arm Limited, Inc. | Ubuntu 24.04 by Arm Limited | custom in larger runners| [Ubuntu 24.04 Inventory](/images/arm-ubuntu-24-image.md) | Linux, ARM64 | In Beta (Public) | [About & Support](https://github.com/actions/partner-runner-images/issues/new/choose) |
 | Arm Limited, Inc. | Ubuntu 22.04 by Arm Limited | custom in larger runners| [Ubuntu 22.04 Inventory](/images/arm-ubuntu-22-image.md) | Linux, ARM64 | In Beta (Public) | [About & Support](https://github.com/actions/partner-runner-images/issues/new/choose) |
 | Arm Limited, Inc. | ARM-Partner-AVH | custom in larger runners| [AVH Inventory](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh_inventory.html ) | Linux, x64 | In Beta (Private) | [About & Support](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh.html) |
 
 ## Current Partner image overview 
 
-### [Ubuntu 22.04 by Arm Limited](https://github.blog/changelog/2023-10-30-accelerate-your-ci-cd-with-arm-based-hosted-runners-in-github-actions/)
-The image has the most popular tools pre-installed. Check the [image documention](/images/arm-ubuntu-22-image.md) for more details. **It is a recommended image to use with Linux Arm64 Runners.**
+### Ubuntu 24.04 by Arm Limited
+The image has the most popular tools pre-installed. Check the [image documentation](/images/arm-ubuntu-24-image.md) for more details. **It is a recommended image to use with Linux Arm64 Runners.**
+
+### Ubuntu 22.04 by Arm Limited
+The image has the most popular tools pre-installed. Check the [image documentation](/images/arm-ubuntu-22-image.md) for more details. **It is a recommended image to use with Linux Arm64 Runners.**
+
+### Blogs
+- [Accelerate your CI/CD with Arm-based hosted runners in GitHub Actions](https://github.blog/changelog/2023-10-30-accelerate-your-ci-cd-with-arm-based-hosted-runners-in-github-actions/)
+- [GitHub Actions: Simplifying Arm-based Application Development](https://newsroom.arm.com/blog/github-arm-integration)
 
 ### [ARM AVH Image](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh.html)
 Arm Virtual Hardware (AVH) images contain ready-to-use Arm Cortex-M simulation models and Compiler toolchains for native use with GitHub Actions. This image is for customers who have ARM edge IoT use cases and workloads that they would like to build and test through GitHub Actions. The types of customers will be those working in industries like Medical devices, Agriculture, Consumer electronics, automotive, etc. 
