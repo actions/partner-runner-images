@@ -53,6 +53,7 @@ If you would like something added or would like to propose a substitute for some
 - Ruby
 - Rust
 - swig
+- Swift
 - unzip
 - Vcpkg
 - Yarn
@@ -68,7 +69,6 @@ This section lists tools which are installed on [Ubuntu 24.04 X64 image](https:/
     - Chrome browser
     - Homebrew (no packages for Arm Linux)
     - R 
-    - Swift
     - Microsoft SQL client tools
     - CodeQL
 

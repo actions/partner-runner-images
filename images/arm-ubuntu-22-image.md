@@ -60,6 +60,7 @@ If you would like something added or would like to propose a substitute for some
 - Rust
 - SVN
 - swig
+- Swift
 - Terraform
 - unzip
 - Vcpkg
@@ -77,7 +78,6 @@ This section lists tools which are installed on [Ubuntu 22.04 X64 image](https:/
     - Chrome browser
     - Homebrew (no packages for Arm Linux)
     - R 
-    - Swift
     - Microsoft SQL client tools
     - CodeQL
 
