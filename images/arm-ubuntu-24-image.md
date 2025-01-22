@@ -41,6 +41,7 @@ If you would like something added or would like to propose a substitute for some
 - make
 - Maven
 - Minikube
+- MySQL
 - Netlify CLI
 - Node.js
 - Parcel
@@ -83,7 +84,6 @@ This section lists tools which are installed on [Ubuntu 24.04 X64 image](https:/
     - Julia
     - Leiningen
     - Miniconda
-    - MySQL
     - NVM (Node Version Manager)
     - OpenShift CLI
     - ORAS CLI
