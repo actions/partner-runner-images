@@ -13,9 +13,13 @@
 
 ## About
 
-This repository contains the information about the VM images provided by GitHub partners which can be used on [GitHub-hosted larger runners](https://docs.github.com/en/actions/using-github-hosted-runners/using-larger-runners).
+This repository contains the information about the VM images provided by GitHub partners which can be used on [GitHub-hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners). 
 
 Partner images are VM images which are created by third parties which GitHub Hosted Action runner customers can use to improve particular use cases in their workflow by providing particular tools in 'one click' to work with. 
+
+The purpose of this repository is provide a place for users of the images to report bugs and provide feedback on the images. The images are not open source, and thus there is no code housed here for building the images themselves. This is a forum for discussions and issues to be raised about the images, as well as a resource for information about the packages and tools on the images. If there is an issue with the underlying hardware, or with Actions, please report issues to GitHub directly using [support](https://support.github.com/request) or [community forums](https://github.com/orgs/community/discussions).
+
+Please note that since this repository is maintained by partners, it will not provide the same parity of resources that the runner-images repository provides. Each partner will keep the information up to date in this repository to the best of their abilities.
 
 ## Available Images
 
