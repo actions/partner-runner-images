@@ -1,7 +1,3 @@
-If you discover a security issue in this repo, please submit it through the [GitHub Security Bug Bounty](https://hackerone.com/github)
-
-If you discover a security issue in one of the partner images please submit them through:
-
-- ARM - TBD
+If you discover a security issue in one of the Arm runner images, please refer to [Reporting a Product Security Vulnerability](https://developer.arm.com/documentation/102850/latest/) and follow the instructions.
 
 Thanks for helping make GitHub Actions safe for everyone.
