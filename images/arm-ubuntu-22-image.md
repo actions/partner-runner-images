@@ -3,7 +3,7 @@
 The Ubuntu 22.04 LTS Arm image is created from the [GitHub Actions Runner Images](https://github.com/actions/runner-images) repository.
 
 Some changes have been made to accommodate for the Arm architecture. 
-- Some tools do not support the Arm and are not available
+- Some tools do not support Arm and are not available
 - Some tools do work on Arm, but have been excluded because they are infrequently used
 
 If you would like something added or would like to propose a substitute for something that does not work on Arm, please open an issue in this repo.
