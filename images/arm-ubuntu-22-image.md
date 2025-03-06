@@ -1,9 +1,9 @@
 # Ubuntu 22.04 by Arm Limited 
 
-The Ubuntu 22.04 LTS image with tools is created from the [GitHub Actions Runner Images](https://github.com/actions/runner-images) repository. 
+The Ubuntu 22.04 LTS Arm image is created from the [GitHub Actions Runner Images](https://github.com/actions/runner-images) repository.
 
 Some changes have been made to accommodate for the Arm architecture. 
-- Some tools do not support the Arm and are not available
+- Some tools do not support Arm and are not available
 - Some tools do work on Arm, but have been excluded because they are infrequently used
 
 If you would like something added or would like to propose a substitute for something that does not work on Arm, please open an issue in this repo.
@@ -69,9 +69,9 @@ If you would like something added or would like to propose a substitute for some
 - Yarn
 - zip
 
-## Not installed software
+## Omitted software
 
-This section lists tools which are installed on [Ubuntu 22.04 X64 image](https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2204-Readme.md) provided by GitHub but not installed on the current image.
+This section lists tools which are installed on [Ubuntu 22.04 X64 image](https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2204-Readme.md) provided by GitHub but omitted from the current image.
 
 -  Tools that are not supported on Arm architecture
     - Android SDK
