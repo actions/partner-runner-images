@@ -69,9 +69,9 @@ If you would like something added or would like to propose a substitute for some
 - Yarn
 - zip
 
-## Not installed software
+## Omitted software
 
-This section lists tools which are installed on [Ubuntu 22.04 X64 image](https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2204-Readme.md) provided by GitHub but not installed on the current image.
+This section lists tools which are installed on [Ubuntu 22.04 X64 image](https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2204-Readme.md) provided by GitHub but omitted from the current image.
 
 -  Tools that are not supported on Arm architecture
     - Android SDK
