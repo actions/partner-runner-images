@@ -1,6 +1,6 @@
 # Ubuntu 24.04 by Arm Limited 
 
-The Ubuntu 24.04 LTS image with tools is created from the [GitHub Actions Runner Images](https://github.com/actions/runner-images) repository. 
+The Ubuntu 24.04 LTS Arm image is created from the [GitHub Actions Runner Images](https://github.com/actions/runner-images) repository.
 
 Some changes have been made to accommodate for the Arm architecture. 
 - Some tools do not support the Arm and are not available
