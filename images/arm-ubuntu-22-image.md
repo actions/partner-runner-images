@@ -28,6 +28,7 @@ If you would like something added or would like to propose a substitute for some
 - Docker Compose
 - Docker Buildx
 - Dotnet (.NET Core)
+- Firefox
 - g++ (9, 10, 11, 12, 13)
 - Gcc (9, 10, 11, 12, 13)
 - Git
@@ -54,6 +55,7 @@ If you would like something added or would like to propose a substitute for some
 - PHP
 - Pip
 - Pipx
+- Podman and associated container tools
 - Pulumi
 - PowerShell
 - Python
@@ -66,6 +68,7 @@ If you would like something added or would like to propose a substitute for some
 - unzip
 - Vcpkg
 - Vercel CLI
+- yamllint
 - Yarn
 - zip
 
@@ -86,7 +89,6 @@ This section lists tools which are installed on [Ubuntu 22.04 X64 image](https:/
     - Ansible
     - Alibaba Cloud CLI
     - Azure Bicep
-    - Podman and associated container tools
     - Haskell
     - Heroku
     - HHVM (HipHop VM)
