@@ -27,6 +27,7 @@ Please note that since this repository is maintained by partners, it will not pr
 |-----------| --------------------|---------------------|--------------------|--------------------|----------------------------|-----------------------|
 | Arm Limited, Inc. | Ubuntu 24.04 by Arm Limited | `ubuntu-24.04-arm` and custom in larger runners| [Ubuntu 24.04 Inventory](/images/arm-ubuntu-24-image.md) | Linux, ARM64 | In Beta (Public) | [About & Support](https://github.com/actions/partner-runner-images/issues/new/choose) |
 | Arm Limited, Inc. | Ubuntu 22.04 by Arm Limited | `ubuntu-22.04-arm` and custom in larger runners| [Ubuntu 22.04 Inventory](/images/arm-ubuntu-22-image.md) | Linux, ARM64 | In Beta (Public) | [About & Support](https://github.com/actions/partner-runner-images/issues/new/choose) |
+| Arm Limited, Inc. | Windows 11 by Arm Limited | `windows-11-arm` and custom in larger runners| [Windows 11 Inventory](/images/arm-windows-11-image.md) | Windows, ARM64 | In Beta (Public) | [About & Support](https://github.com/actions/partner-runner-images/issues/new/choose) |
 | Arm Limited, Inc. | ARM-Partner-AVH | custom in larger runners| [AVH Inventory](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh_inventory.html ) | Linux, x64 | In Beta (Private) | [About & Support](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh.html) |
 
 ## Current Partner image overview 
@@ -37,8 +38,8 @@ The image has the most popular tools pre-installed. Check the [image documentati
 ### Ubuntu 22.04 by Arm Limited
 The image has the most popular tools pre-installed. Check the [image documentation](/images/arm-ubuntu-22-image.md) for more details. **It is a recommended image to use with Linux Arm64 Runners.**
 
-### Windows 11 on Arm
-There is no Windows 11 on Arm image with development tools installed. It is under development and will be added here when it's available. 
+### Windows 11 by Arm Limited
+The image has the most popular tools pre-installed. Check the [image documentation](/images/arm-windows-11-image.md) for more details. **It is a recommended image to use with Windows Arm64 Runners.** 
 
 ### Blogs
 - [Accelerate your CI/CD with Arm-based hosted runners in GitHub Actions](https://github.blog/changelog/2023-10-30-accelerate-your-ci-cd-with-arm-based-hosted-runners-in-github-actions/)
