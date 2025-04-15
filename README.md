@@ -44,6 +44,7 @@ The image has the most popular tools pre-installed. Check the [image documentati
 ### Blogs
 - [Accelerate your CI/CD with Arm-based hosted runners in GitHub Actions](https://github.blog/changelog/2023-10-30-accelerate-your-ci-cd-with-arm-based-hosted-runners-in-github-actions/)
 - [GitHub Actions: Simplifying Arm-based Application Development](https://newsroom.arm.com/blog/github-arm-integration)
+- [Windows arm64 hosted runners now available in public preview](https://github.blog/changelog/2025-04-14-windows-arm64-hosted-runners-now-available-in-public-preview/)
 
 ### [ARM AVH Image](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh.html)
 Arm Virtual Hardware (AVH) images contain ready-to-use Arm Cortex-M simulation models and Compiler toolchains for native use with GitHub Actions. This image is for customers who have ARM edge IoT use cases and workloads that they would like to build and test through GitHub Actions. The types of customers will be those working in industries like Medical devices, Agriculture, Consumer electronics, automotive, etc. 
