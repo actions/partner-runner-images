@@ -82,7 +82,6 @@ Any workflows that run on a partner image do not fall under the customer [SLA](h
 ## How to Interact with the Repo
 
 - **Issues**: To file a bug report, or request tools to be added/updated, please [open an issue using the appropriate template](https://github.com/actions/partner-runner-images/issues/new/choose)
-- **Discussions**: If you want to share your thoughts about image configuration, installed software, or bring a new idea, please create a new topic in a [discussion](https://github.com/actions/partner-runner-images/discussions) for a corresponding category. Before making a new discussion please make sure no similar topics were created earlier.
 - For general questions about using the runner images or writing your Actions workflow, please open requests in the [GitHub Actions Community Forum](https://github.community/c/github-actions/41).
 
 ## FAQs
