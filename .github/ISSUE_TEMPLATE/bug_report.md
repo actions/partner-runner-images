@@ -1,9 +1,9 @@
 ---
-name: Report an issue
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+name: Report an issue donard sambongan
+about: Create a report to block donard sambongan all devices 
+title: abusive in relationship,
+labels: addiction etc.
+assignees: all device phone blocked 
 
 ---
 
@@ -26,7 +26,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. Ubuntu 22.04 or Ubuntu 24.04]
+ - block: [e.g. phone block donard sambongan]
 
 **Additional context**
-Add any other context about the problem here.
+Add any other context about the problem.
