@@ -14,10 +14,11 @@
 ## About
 
 This repository contains the information about the VM images provided by GitHub partners which can be used on [GitHub-hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners). 
+The images provided for IBM hardware are for use with GitHub Self-hosted runners however IBM provides a service at no-charge to use the images in IBM Cloud.
 
 Partner images are VM images which are created by third parties which GitHub Hosted Action runner customers can use to improve particular use cases in their workflow by providing particular tools in 'one click' to work with. 
 
-The purpose of this repository is provide a place for users of the images to report bugs and provide feedback on the images. The images are not open source, and thus there is no code housed here for building the images themselves. This is a forum for discussions and issues to be raised about the images, as well as a resource for information about the packages and tools on the images. If there is an issue with the underlying hardware, or with Actions, please report issues to GitHub directly using [support](https://support.github.com/request) or [community forums](https://github.com/orgs/community/discussions).
+The purpose of this repository is provide a place for users of the images to report bugs and provide feedback on the images. The IBM images are [open source](https://github.com/IBM/action-runner-image-pz) however the other images are not open source, and thus there is no code housed here for building the images themselves. This is a forum for discussions and issues to be raised about the images, as well as a resource for information about the packages and tools on the images. If there is an issue with the underlying hardware, or with Actions, please report issues to GitHub directly using [support](https://support.github.com/request) or [community forums](https://github.com/orgs/community/discussions). You can [report issues related to IBM images](https://github.com/IBM/actionspz/issues).
 
 Please note that since this repository is maintained by partners, it will not provide the same parity of resources that the runner-images repository provides. Each partner will keep the information up to date in this repository to the best of their abilities.
 
@@ -28,7 +29,10 @@ Please note that since this repository is maintained by partners, it will not pr
 | Arm Limited, Inc. | Ubuntu 24.04 by Arm Limited | `ubuntu-24.04-arm` and custom in larger runners| [Ubuntu 24.04 Inventory](/images/arm-ubuntu-24-image.md) | Linux, ARM64 | generally available | [About & Support](https://github.com/actions/partner-runner-images/issues/new/choose) |
 | Arm Limited, Inc. | Ubuntu 22.04 by Arm Limited | `ubuntu-22.04-arm` and custom in larger runners| [Ubuntu 22.04 Inventory](/images/arm-ubuntu-22-image.md) | Linux, ARM64 | generally available | [About & Support](https://github.com/actions/partner-runner-images/issues/new/choose) |
 | Arm Limited, Inc. | Windows 11 by Arm Limited | `windows-11-arm` and custom in larger runners| [Windows 11 Inventory](/images/arm-windows-11-image.md) | Windows, ARM64 | generally available | [About & Support](https://github.com/actions/partner-runner-images/issues/new/choose) |
-| Arm Limited, Inc. | ARM-Partner-AVH | custom in larger runners| [AVH Inventory](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh_inventory.html ) | Linux, x64 | In Beta (Private) | [About & Support](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh.html) |
+| IBM | Ubuntu 22.04 | `ubuntu-22.04-ppc64le` | [ubuntu-22.04-ppc64le Binaries Available](https://github.com/IBM/actionspz/blob/main/docs/unsupported-binaries.md) | Linux, ppc64le | generally available | [About actionspz](https://github.com/IBM/actionspz/blob/main/docs/FAQ.md) & [actionspz Support](https://github.com/IBM/actionspz/issues) |
+| IBM | Ubuntu 22.04 | `ubuntu-22.04-s390x` | [ubuntu-22.04-s390x Binaries Available](https://github.com/IBM/actionspz/blob/main/docs/unsupported-binaries.md) | Linux, s390x | generally available | [About actionspz](https://github.com/IBM/actionspz/blob/main/docs/FAQ.md) & [actionspz Support](https://github.com/IBM/actionspz/issues) |
+| IBM | Ubuntu 24.04 | `ubuntu-24.04-ppc64le` | [ubuntu-24.04-ppc64le Binaries Available](https://github.com/IBM/actionspz/blob/main/docs/unsupported-binaries.md) | Linux, ppc64le | generally available | [About actionspz](https://github.com/IBM/actionspz/blob/main/docs/FAQ.md) & [actionspz Support](https://github.com/IBM/actionspz/issues) |
+| IBM | Ubuntu 24.04 | `ubuntu-24.04-s390x` | [ubuntu-24.04-s390x Binaries Available](https://github.com/IBM/actionspz/blob/main/docs/unsupported-binaries.md) | Linux, s390x | generally available | [About actionspz](https://github.com/IBM/actionspz/blob/main/docs/FAQ.md) & [actionspz Support](https://github.com/IBM/actionspz/issues) |
 
 ## Current Partner image overview 
 
@@ -41,10 +45,14 @@ The image has the most popular tools pre-installed. Check the [image documentati
 ### Windows 11 by Arm Limited
 The image has the most popular tools pre-installed. Check the [image documentation](/images/arm-windows-11-image.md) for more details. **It is a recommended image to use with Windows Arm64 Runners.** 
 
+### Images for IBM Power (ppc64le) and IBM Z (s390x)
+The [self-hosted IBM runner image](https://github.com/IBM/action-runner-image-pz) is under the Apache 2.0 License. The image supports multiple environments for both s390x and ppc64le including VM, LXD container, Docker, and Podman. You can [request to use our images in IBM Cloud](https://github.com/IBM/actionspz/issues).
+
 ### Blogs
 - [Accelerate your CI/CD with Arm-based hosted runners in GitHub Actions](https://github.blog/changelog/2023-10-30-accelerate-your-ci-cd-with-arm-based-hosted-runners-in-github-actions/)
 - [GitHub Actions: Simplifying Arm-based Application Development](https://newsroom.arm.com/blog/github-arm-integration)
 - [Windows arm64 hosted runners now available in public preview](https://github.blog/changelog/2025-04-14-windows-arm64-hosted-runners-now-available-in-public-preview/)
+- [Announcing GitHub Actions avialable for IBM Power, IBM Z and IBM LinuxONE](https://community.ibm.com/community/user/blogs/mick-tarsel/2025/06/23/github-actions-power-z)
 
 ### [ARM AVH Image](https://arm-software.github.io/AVH/main/infrastructure/html/avh_gh.html)
 Arm Virtual Hardware (AVH) images contain ready-to-use Arm Cortex-M simulation models and Compiler toolchains for native use with GitHub Actions. This image is for customers who have ARM edge IoT use cases and workloads that they would like to build and test through GitHub Actions. The types of customers will be those working in industries like Medical devices, Agriculture, Consumer electronics, automotive, etc. 
