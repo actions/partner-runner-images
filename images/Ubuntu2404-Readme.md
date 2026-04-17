@@ -1,8 +1,8 @@
 # Ubuntu 24.04
 - OS Version: 24.04.3 LTS
-- Kernel Version: 6.14.0-1014-azure
+- Kernel Version: 6.14.0-1017-azure
 - Image Version: 0.0.1
-- Systemd version: 255.4-1ubuntu8.11
+- Systemd version: 255.4-1ubuntu8.12
 
 ## Installed Software
 
@@ -14,22 +14,22 @@
 - Dash 0.5.12-6ubuntu5
 - GNU C++: 12.4.0, 13.3.0, 14.2.0
 - GNU Fortran: 12.4.0, 13.3.0, 14.2.0
-- Kotlin 2.2.21-release-469
-- Node.js 20.19.6
+- Kotlin 2.3.0-release-356
+- Node.js 20.20.0
 - Perl 5.38.2
 - Python 3.12.3
 - Ruby 3.2.3
 - Swift 6.2.3
 
 ### Package Management
-- Helm 3.19.4
-- Homebrew 5.0.5
+- Helm 3.20.0
+- Homebrew 5.0.12
 - Npm 10.8.2
 - Pip 24.0
 - Pip3 24.0
 - Pipx 1.8.0
 - RubyGems 3.4.20
-- Vcpkg (build from commit 9984495d19)
+- Vcpkg (build from commit 40c89449f0)
 - Yarn 1.22.22
 
 #### Environment variables
@@ -50,18 +50,18 @@ to accomplish this.
 - Ant 1.10.14
 - Gradle 4.4.1
 - Lerna 9.0.3
-- Maven 3.9.11
+- Maven 3.9.12
 
 ### Tools
 - Ansible 2.20.1
-- AzCopy 10.31.0 - available by `azcopy` and `azcopy10` aliases
-- Bazel 8.5.0
-- Bazelisk 1.26.0
+- AzCopy 10.31.1 - available by `azcopy` and `azcopy10` aliases
+- Bazel 9.0.0
+- Bazelisk 1.28.1
 - Buildah 1.33.7
 - CMake 3.31.6
 - Docker Amazon ECR Credential Helper 0.11.0
 - Docker Compose v2 2.38.2
-- Docker-Buildx 0.30.1
+- Docker-Buildx 0.31.1
 - Docker Client 28.0.4
 - Docker Server 28.0.4
 - Git 2.52.0
@@ -69,56 +69,56 @@ to accomplish this.
 - Git-ftp 1.6.0
 - Haveged 1.9.14
 - jq 1.7
-- Kind 0.30.0
-- Kubectl 1.34.3
+- Kind 0.31.0
+- Kubectl 1.35.0
 - Kustomize 5.8.0
-- OpenSSL 3.0.13-0ubuntu3.6
+- OpenSSL 3.0.13-0ubuntu3.7
 - Packer 1.14.3
 - Podman 4.9.3
-- Pulumi 3.212.0
+- Pulumi 3.218.0
 - Skopeo 1.13.3
-- yamllint 1.37.1
+- yamllint 1.38.0
 - yq 4.50.1
 - zstd 1.5.7
 - Ninja 1.12.1
 
 ### CLI Tools
-- AWS CLI 2.32.17
+- AWS CLI 2.33.10
 - AWS CLI Session Manager Plugin 1.2.764.0
-- AWS SAM CLI 1.150.1
-- Azure CLI 2.81.0
+- AWS SAM CLI 1.153.1
+- Azure CLI 2.82.0
 - Azure CLI (azure-devops) 1.0.2
-- GitHub CLI 2.83.2
-- Google Cloud CLI 549.0.1
+- GitHub CLI 2.86.0
+- Google Cloud CLI 554.0.0
 
 ### Java
-| Version              | Environment Variable |
-| -------------------- | -------------------- |
-| 8.0.472+8            | JAVA_HOME_8_X64      |
-| 11.0.29+7            | JAVA_HOME_11_X64     |
-| 17.0.17+10 (default) | JAVA_HOME_17_X64     |
-| 21.0.9+10            | JAVA_HOME_21_X64     |
-| 25.0.1+8             | JAVA_HOME_25_X64     |
+| Version             | Environment Variable |
+| ------------------- | -------------------- |
+| 8.0.472+8           | JAVA_HOME_8_X64      |
+| 11.0.29+7           | JAVA_HOME_11_X64     |
+| 17.0.18+8 (default) | JAVA_HOME_17_X64     |
+| 21.0.10+7           | JAVA_HOME_21_X64     |
+| 25.0.2+10           | JAVA_HOME_25_X64     |
 
 ### PHP Tools
-- PHP: 8.3.28
-- Composer 2.9.2
-- PHPUnit 8.5.50
+- PHP: 8.3.30
+- Composer 2.9.5
+- PHPUnit 8.5.52
 ```
 Both Xdebug and PCOV extensions are installed, but only Xdebug is enabled.
 ```
 
 ### Rust Tools
-- Cargo 1.92.0
-- Rust 1.92.0
-- Rustdoc 1.92.0
+- Cargo 1.93.0
+- Rust 1.93.0
+- Rustdoc 1.93.0
 - Rustup 1.28.2
 
 #### Packages
 - Rustfmt 1.8.0
 
 ### .NET Tools
-- .NET Core SDK: 8.0.122, 8.0.206, 8.0.319, 8.0.416, 9.0.112, 9.0.205, 9.0.308, 10.0.101
+- .NET Core SDK: 8.0.123, 8.0.206, 8.0.319, 8.0.417, 9.0.113, 9.0.205, 9.0.310, 10.0.102
 - nbgv 3.9.50+6feeb89450
 
 ### Databases
@@ -137,8 +137,8 @@ Use the following command as a part of your job to start the service: 'sudo syst
 - PowerShell 7.4.6
 
 #### PowerShell Modules
-- Az: 12.5.0
-- Microsoft.Graph: 2.33.0
+- Az: 14.6.0
+- Microsoft.Graph: 2.34.0
 - Pester: 5.7.1
 - PSScriptAnalyzer: 1.24.0
 
@@ -167,7 +167,7 @@ Use the following command as a part of your job to start the service: 'sudo syst
 | ftp                    | 20230507-2build3             |
 | g++                    | 4:13.2.0-7ubuntu1            |
 | gcc                    | 4:13.2.0-7ubuntu1            |
-| gnupg2                 | 2.4.4-2ubuntu17.3            |
+| gnupg2                 | 2.4.4-2ubuntu17.4            |
 | golang-go              | 2:1.22\~2build1              |
 | haveged                | 1.9.14-1ubuntu2              |
 | iproute2               | 6.1.0-1ubuntu6.2             |
@@ -176,7 +176,7 @@ Use the following command as a part of your job to start the service: 'sudo syst
 | libgbm-dev             | 25.0.7-0ubuntu0.24.04.2      |
 | libnss3-tools          | 2:3.98-1build1               |
 | libsqlite3-dev         | 3.45.1-1ubuntu2.5            |
-| libssl-dev             | 3.0.13-0ubuntu3.6            |
+| libssl-dev             | 3.0.13-0ubuntu3.7            |
 | libtool                | 2.4.7-7build1                |
 | libyaml-dev            | 0.2.5-1build1                |
 | locales                | 2.39-0ubuntu8.6              |
@@ -205,7 +205,7 @@ Use the following command as a part of your job to start the service: 'sudo syst
 | sshpass                | 1.09-1                       |
 | sudo                   | 1.9.15p5-3ubuntu5.24.04.1    |
 | swig                   | 4.2.0-2ubuntu1               |
-| systemd-coredump       | 255.4-1ubuntu8.11            |
+| systemd-coredump       | 255.4-1ubuntu8.12            |
 | tar                    | 1.35+dfsg-3build1            |
 | telnet                 | 0.17+2.5-3ubuntu4            |
 | texinfo                | 7.1-3build2                  |
